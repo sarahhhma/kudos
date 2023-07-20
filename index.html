@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Keller Kudos</title>
+        <link rel="stylesheet" href="index.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+    </head>
+    <body>
+        <!--Design shows image/icon at the top
+        Realtime update
+        STRETCH GOALS
+        to and from input
+        add likes (once)
+        desktop version-->
+        <div class="container">
+            <h1>Keller Kudos</h1>
+            <img src="cougar.png">
+            <h3>Our hearts beat en dos idiomas.</h3>
+            <br>
+            <div class="top-div"><p>To:</p><input id="recipient" type="text" placeholder="Helen Keller">
+            <p> From: </p><input id="sender" type="text" placeholder="Frida Kahlo">
+            <p> Date: </p><input id="date" type="date"></div>
+            <textarea id="input" placeholder="Thank you for being inspiring!"></textarea>
+            <button id="submit">Submit Kudos</button>
+            <h2>Kudos:</h2>
+            <ul id="kudos">
+            </ul>
+        </div>
+        <script src="index.js" type="module"></script>
+    </body>
+</html>
